@@ -159,3 +159,36 @@ nav ul li a:hover {
     margin: 1.6rem;
     text-align: center;
 }
+
+/* Testimoni */
+.testimoni {
+    background-color: whitesmoke;
+}
+
+.testimoni h1 {
+    color: black;
+}
+
+.testimoni .row {
+    justify-content: center;
+    margin-bottom: 60px;
+    color: whitesmoke;
+}
+
+.testimoni .testi {
+    background-color: #505050;
+    padding: 4rem 8rem;
+    margin: 0 1rem;
+}
+
+.testimoni .image {
+    height: 80px;
+    width: 80px;
+}
+
+.testimoni img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
