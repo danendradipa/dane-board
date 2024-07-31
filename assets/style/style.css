@@ -325,3 +325,58 @@ footer {
 footer p {
     margin-top: 0;
 }
+
+/* Media Queries */
+@media only screen and (max-width:768px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    /* Hamburger Menu */
+    .menu-toggle {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 70%;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: whitesmoke;
+        z-index: -99;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        width: 100%;
+        top: 16%;
+        left: 0;
+        text-align: center;
+        padding: 0 8px;
+    }
+
+    /* testimoni */
+    .testimoni .testi {
+        margin: 1.6rem 0;
+    }
+
+    /* Kontak */
+    .kontak form input,
+    .kontak textarea {
+        width: 100%;
+    }
+}
