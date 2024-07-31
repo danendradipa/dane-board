@@ -112,3 +112,20 @@ nav ul li a:hover {
     max-width: 450px;
     height: auto;
 }
+
+/* Kategori*/
+.kategori {
+    background-color: whitesmoke;
+}
+
+.kategori .row {
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.kategori-kiri,
+.kategori-tengah,
+.kategori-kanan {
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
