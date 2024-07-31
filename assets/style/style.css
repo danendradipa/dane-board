@@ -129,3 +129,33 @@ nav ul li a:hover {
     flex-basis: 30%;
     padding: 1.6rem;
 }
+
+/* Switch */
+.switch {
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.switch-desc {
+    flex-basis: 50%;
+}
+
+.switch-right {
+    flex-basis: 30%;
+}
+
+.switch .card {
+    padding: 3rem 8rem;
+    color: #222;
+    background-color: #DCDCDC;
+    margin: 1.6rem;
+    text-align: center;
+}
+
+.switch .card2 {
+    padding: 3rem 5.5rem;
+    color: #222;
+    background-color: #DCDCDC;
+    margin: 1.6rem;
+    text-align: center;
+}
