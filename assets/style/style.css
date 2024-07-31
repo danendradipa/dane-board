@@ -259,3 +259,16 @@ input::placeholder {
     margin: 1.2rem 0;
     font-family: "Poppins", sans-serif;
 }
+
+/* Footer */
+footer {
+    height: 80px;
+    background-color: whitesmoke;
+    color: #222;
+    line-height: 80px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0;
+}
