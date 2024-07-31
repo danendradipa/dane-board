@@ -54,4 +54,42 @@ article {
     padding: 100px 0;
 }
 
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: whitesmoke;
+    color: black;
+    position: sticky;
+    top: 0px;
+    padding: 1% 10%;
+}
+
+.logo h1 {
+    font-size: 3.2rem;
+    color: #FA7070;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a:hover {
+    color: #FA7070;
+}
 
